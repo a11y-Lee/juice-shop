@@ -1,0 +1,6 @@
+version: v1.0.0
+ignore:
+  SNYK-JS-MARSDB-480405:
+    - '*':
+        reason: 'Tidak ada versi perbaikan (patch), digunakan hanya untuk dev/testing lokal'
+        expires: 2026-12-31
